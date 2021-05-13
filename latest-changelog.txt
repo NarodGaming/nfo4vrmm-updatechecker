@@ -1,9 +1,14 @@
-V1.5.4.0
+V1.5.4.0, 13th May 2021
 ~~~~~~~
 - Added new update checker
+	- Now includes an automated updater
+- Added more logging to assist with debugging (nfo4vrmm_log.txt)
+- Added a clearer guide to mod load order
 - Fixed bug with version number in changelog
+- Fixed bug where incompatible Windows version dialog wouldn't appear when it should
+- Fixed bug where archive viewer may overlap with SpaceSaver text
 
-V1.5.3.0
+V1.5.3.0, 3rd May 2021
 ~~~~~~~
 - Added server status option to 'About' page
 - Added a logger to assist with debugging (nfo4vrmm_log.txt)
@@ -12,7 +17,7 @@ V1.5.3.0
 - Fixed bug where First Time Setup / Options would check for Fallout 4, even if not told to
 - Removed .zip mod installer (deprecated from V1.5.2.0)
 
-V1.5.2.2
+V1.5.2.2, 2nd May 2021
 ~~~~~~~
 - Minor UI tweaks
 - Updated SpaceSaver to V1.0.1.0
@@ -20,12 +25,12 @@ V1.5.2.2
 	- Fixed bug where wrong version number may appear
 - Fixed wrong readme inside mod manager
 
-V1.5.2.1
+V1.5.2.1, 29th March 2021
 ~~~~~~~
 - Fixed backup mirror for update checker
 - Added SpaceSaver warning
 
-V1.5.2.0
+V1.5.2.0, 28th March 2021
 ~~~~~~~
 - Readme now available directly within mod manager
 - Added backup mirror to update checker
@@ -38,7 +43,7 @@ V1.5.2.0
 - Deprecated Mod Installer function (will be removed fully in future update)
 	- The mod installer has always been in beta and without any reasonable way of improving it, it's easier to ask users to install mods themselves.
 
-V1.5.1.0
+V1.5.1.0, 28th March 2021
 ~~~~~~~
 - Brand new options / first time setup UI
 - Fixed various issues with resizing windows / maximising windows
@@ -46,28 +51,28 @@ V1.5.1.0
 - Fixed a bug where SpaceSaver would not properly reset Fallout 4 directory
 - Fixed a bug where the mod manager could enter an in-dev FO4 manager mode
 
-V1.5.0.3
+V1.5.0.3, 27th March 2021
 ~~~~~~~
 - Introduced additional optimisation
 - Adjusted First Time Setup UI
 
-V1.5.0.2
+V1.5.0.2, 27th March 2021
 ~~~~~~~
 - Fix for broken Fallout 4 directory finder
 - Fix for broken SpaceSaver launch
 
-V1.5.0.1
+V1.5.0.1, 27th March 2021
 ~~~~~~~
 - Hotfix for instant crash
 
-V1.5.0.0
+V1.5.0.0, 26th March 2021
 ~~~~~~~
 - Added setup for Fallout 4 support (coming soon)
 - Added SpaceSaver, allowing you to combine your Fallout 4 and VR install to potentially half the space taken!
 - Added a changelog window, which automatically shows after an update.
 - Added contact and donation information to the about page (thank you for your support!)
 
-V1.4.8.0
+V1.4.8.0, 1st January 2021
 ~~~~~~~
 - Updated year to 2021 (Happy new year!)
 - Updated .NET Framework to 4.7.2 (No change in compatibility)
@@ -78,18 +83,18 @@ V1.4.8.0
 - Fixed bug where an error message box could cause a different error
 - Fixed bug where error handler would throw a different error
 
-V1.4.7.3
+V1.4.7.3, 31st March 2020
 ~~~~~~~
 - Fixed a bug where the launcher may crash on the first time setup.
 - Added a error log.
 
-V1.4.7.2
+V1.4.7.2, 19th March 2020
 ~~~~~~~
 - Updated year shown to 2020 (Happy late new year!)
 - Changed the tab text to make it easier to understand.
 - Added ticking counter to the mod count number
 
-V1.4.7.1
+V1.4.7.1, 9th March 2019
 ~~~~~~~
 - Added a mod count to the main page
 - Optimised file size
@@ -98,7 +103,7 @@ V1.4.7.1
 	- Other tweaks
 - Removed settings (temporarily)
 
-V1.4.7.0
+V1.4.7.0, 8th March 2019
 ~~~~~~~
 - Heavy optimisation of code
 	- Less RAM usage
@@ -107,7 +112,7 @@ V1.4.7.0
 - Fixed a bug where clicking the "NexusMods" link caused graphical issues.
 - Fixed a bug where the launcher would crash upon launch.
 
-V1.4.6.4
+V1.4.6.4, 6th March 2019
 ~~~~~~~
 - Fixed a bug where a corrupted executable would cause a crash.
 - Fixed a bug where a missing directory would cause a crash.
@@ -115,30 +120,30 @@ V1.4.6.4
 - Fixed a bug with the first time setup text going off the edge.
 - Removed the "working dialog".
 
-V1.4.6.3
+V1.4.6.3, 5th March 2019
 ~~~~~~~
 - Scrapped most of the crash handler, crash_log.txt will hold crash information.
 - Fixed a bug with the first time setup crashing in some circumstances.
 
-V1.4.6.2
+V1.4.6.2, 2nd March 2019
 ~~~~~~~
 - Fixed a bug where multiple open mod managers could cause complications.
 - Fixed the CrashHandler, it now writes a crash_log.txt file.
 - Simplified buttons so that it's easier to understand what they do.
 - NexusMods browser now uses the webpage title and not url.
 
-V1.4.6.1
+V1.4.6.1, 15th February 2019
 ~~~~~~~
 - Optimised code, saving file size
 - Fixed a bug where deleted files didn't get removed from the list.
 - Fixed a bug where the version on the first time setup was incorrect.
 
-V1.4.6.0
+V1.4.6.0, 10th February 2019
 ~~~~~~~
 - The mod manager will now automatically change your Fallout4Custom.ini
 - Fixed a bug where you could right click to "Delete Archive", even if none was selected.
 
-V1.4.5.0
+V1.4.5.0, 16th December 2018
 ~~~~~~~
 - Redesigned UI
 - Added "Settings" tab
@@ -147,34 +152,30 @@ V1.4.5.0
 - Fixed a bug where you could spam the play button, potentially crashing the computer
 - Fixed a bug where the mod manager would temporarily lock up when opening
 
-V1.4.4.1
+V1.4.4.1, 9th December 2018
 ~~~~~~~
 - You can now change the load order of files (right click mod, move mod up / down)
 - Completely rewrote detection of new mods (faster and allows for load order & mod activation settings)
 - Fixed a bug where the launcher would close as soon as the first time setup was completed
 - Fixed a bug where you could right click without a mod selected causing a crash
 
-V1.4.4.0
-~~~~~~~
-(Skipped due to bug with V1.4.3.2, look at V1.4.4.1 above)
-
-V1.4.3.2
+V1.4.3.2, 30th November 2018
 ~~~~~~~
 - When updating, you will now be directed to your own browser
 - When asked to endorse, you can select "Yes" to be taken to the mod page on your own browser.
 
 
-V1.4.3.1
+V1.4.3.1, 11th November 2018
 ~~~~~~~
 - Fixed a bug with the .ba2 viewer mode not working properly
 
-V1.4.3.0
+V1.4.3.0, 10th November 2018
 ~~~~~~~
 - Changed to a 64-bit binary (should run better)
 - Changed how settings are saved to be more organised and easier to change
 - Added an automatic update checker
 
-V1.4.2.0
+V1.4.2.0, 9th November 2018
 ~~~~~~~
 - Fixed a bug where mods would randomly enable and disable
 - Fixed a bug where operating system warning messages would show up randomly
@@ -182,7 +183,7 @@ V1.4.2.0
 - Fixed a bug where installing a new file with the same name as an existing file would crash
 - Added a new window that pops up when the mod manager is working in the background
 
-V1.4.1.0
+V1.4.1.0, 9th November 2018
 ~~~~~~~
 - Added "Remove Archive" button for .ba2 viewer
 - Fixed a bug regarding malformed and corrupt directories set
@@ -191,11 +192,11 @@ V1.4.1.0
 	- Adding new link to First Time Setup & version number
 	- Large force refresh button
 
-V1.4.0.1
+V1.4.0.1, 5th November 2018
 ~~~~~~~
 - Hotfix for broken NexusMods browser
 
-V1.4.0.0
+V1.4.0.0, 5th November 2018
 ~~~~~~~
 - Fixed a crash on non-Windows 10 computers
 - Fixed long broken auto detect Fallout 4 VR path
@@ -205,7 +206,7 @@ V1.4.0.0
 - Removed 32-bit support (Fallout 4 VR doesn't support it anyway, use V1.3.3.0 and below)
 - Removed Windows Vista support (Fallout 4 VR doesn't support it anyway, use V1.3.3.0 and below)
 
-V1.3.3.0
+V1.3.3.0, 4th November 2018
 ~~~~~~~
 - Optimised the manager for High DPI displays (Windows Scaling)
 - Added Back and forward images that look cleaner
@@ -215,7 +216,7 @@ V1.3.3.0
 	  This message is to warn you as future versions may update the framework further,
 	  Meaning that your version of Windows will not be compatible.
 
-V1.3.2.0
+V1.3.2.0, 22nd September 2018
 ~~~~~~~
 - Adjusted UI
 	- Mod Manager is now slightly taller
@@ -224,52 +225,56 @@ V1.3.2.0
 - Added NexusMods link to Crash Handler
 - (Added FAQ to Readme)
 
-V1.3.1.1
+V1.3.1.1, 4th September 2018
 ~~~~~~~
 - Hotfix for broken NexusMods browser
 
-V1.3.1.0
+V1.3.1.0, 3rd September 2018
 ~~~~~~~
 - Added a checkbox to leave the mod manager open when opening the game
 - Redesigned Crash Handler
 - Removed the "Exit" button for a more useful "Launch" button
 
-V1.3.0.0
+V1.3.0.0, 26th June 2018
 ~~~~~~~
 - Redesigned UI
 - New: NexusMods page to browse Fallout 4 mods
 - NexusMods link on modding panel leads to browser inside manager
 
-V1.2.2.0
+V1.2.2.0, 18th June 2018
 ~~~~~~~
 - Fixed a bug where the mod manager would immediately crash upon opening.
 - Fixed a bug where an invalid Fallout 4 VR path broke the mod manager.
 - Added a new crash handler to help debug bugs.
 
-V1.2.1.0
+V1.2.1.0, 19th April 2018
 ~~~~~~~
 - Fixed a bug where browsing for your own location always resulted in a crash
 - Fixed a bug where if your plugins file didn't exist, it crashed.
 - .. and numerous other bug fixes
 
-V1.2.0.0
+V1.2.0.0, 18th April 2018
 ~~~~~~~
 - Added a new "Browse" button on the First Time Setup if it cannot find your installation.
 - The list is now sorted alphabetically, instead of by file extension.
 - Fixed a bug where settings wouldn't save under numerous specific circumstances.
 
-V1.1.0.1
+V1.1.0.1, 17th April 2018
 ~~~~~~~
 - Fixed a critical bug which prevented new users from going through the "First Time Setup"
 
-V1.1.0.0
+V1.1.0.0, 17th April 2018
 ~~~~~~~
 - Added "Install New Mod" function
 - Added mod removal (Right Click on mod -> Delete Mod)
 - Updated "Help" button
 - Fixed bug where upon updating, the first time setup is shown again.
 
-V1.0.1.0
+V1.0.1.0, 16th April 2018
 ~~~~~~~
 - Added automatic detection of new mods installed
 - Added link to NexusMods text
+
+V1.0.0.0, 16th April 2018
+~~~~~~~~
+- First release :)

@@ -1,3 +1,9 @@
+V1.5.4.1, 16th June 2021
+~~~~~~~
+- Improved logging further to assist in debugging (nfo4vrmm_log.txt)
+- Fixed a bug where the first time set-up would always crash at the end
+- Fixed a bug where missing .ini files in the "My Games" directory would cause a first time setup crash.
+
 V1.5.4.0, 13th May 2021
 ~~~~~~~
 - Added new update checker

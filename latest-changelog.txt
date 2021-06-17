@@ -1,11 +1,17 @@
-! Important !
+! Important V1.5.4.0 / V1.5.4.1 !
+
 Your auto-update will fail if your path has any spaces in it.
 
-You can manually update here if needed: https://www.nexusmods.com/fallout4/mods/31190
+You can manually update here if you have issues: https://www.nexusmods.com/fallout4/mods/31190
 
-Apologies for this bug, it will be fixed in the next release for future updates.
+Apologies for this bug, it is fixed in V1.5.4.2 and later.
 
 ~~~~~~~
+
+V1.5.4.2, 17th June 2021
+~~~~~~~
+- Optimised use of libraries
+- Fixed a bug where the updater would fail if there was a space in the path
 
 V1.5.4.1, 16th June 2021
 ~~~~~~~

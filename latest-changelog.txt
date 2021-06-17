@@ -1,3 +1,12 @@
+! Important !
+Your auto-update will fail if your path has any spaces in it.
+
+You can manually update here if needed: https://www.nexusmods.com/fallout4/mods/31190
+
+Apologies for this bug, it will be fixed in the next release for future updates.
+
+~~~~~~~
+
 V1.5.4.1, 16th June 2021
 ~~~~~~~
 - Improved logging further to assist in debugging (nfo4vrmm_log.txt)

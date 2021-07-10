@@ -8,6 +8,15 @@ Apologies for this bug, it is fixed in V1.5.4.2 and later.
 
 ~~~~~~~
 
+V1.5.5.0, 10th July 2021
+~~~~~~~
+- Added toggle for auto update checker
+- Added dashboard tab in place of NexusMods browser
+- Improved debugging through adding more messages
+- Fixed bug where mod manager would not recognise Windows 11 as a known version of Windows.
+- Fixed potential bug where reading Windows versions could cause a crash.
+- Removed compatibility with mod manager installs V1.2.0.0 and before (April 2018 and earlier)
+
 V1.5.4.2, 17th June 2021
 ~~~~~~~
 - Optimised use of libraries

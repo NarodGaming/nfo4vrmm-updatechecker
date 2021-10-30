@@ -8,6 +8,11 @@ Apologies for this bug, it is fixed in V1.5.4.2 and later.
 
 ~~~~~~~
 
+V1.5.5.1, 30th October 2021
+~~~~~~~
+- Added 'Browse' prompts to First Time Setup even if location is successfully autodetected.
+	- This usually occurs in the case of you moving the Steam game.
+
 V1.5.5.0, 10th July 2021
 ~~~~~~~
 - Added toggle for auto update checker

@@ -8,6 +8,18 @@ Apologies for this bug, it is fixed in V1.5.4.2 and later.
 
 ~~~~~~~
 
+V1.5.6.0, 7th November 2021
+~~~~~~~
+- Added descriptions to First Time Setup
+- Changed the First Time Setup .ini file edits to instead rename your old files instead of outright deleting them.
+	- Apologies to anyone who lost custom-made .ini files due to this.
+- Updated internal updater to V1.0.1.0
+- Improved the looks of the 'Mod Manager' tab
+- Improved and streamlined the Readme file
+- Improved UI and other assorted UI tweaks
+- Optimised use of libraries
+- Removed .zip prompt from Mod Installer, unless .zip file is specified
+
 V1.5.5.1, 30th October 2021
 ~~~~~~~
 - Added 'Browse' prompts to First Time Setup even if location is successfully autodetected.

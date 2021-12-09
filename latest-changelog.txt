@@ -8,6 +8,19 @@ Apologies for this bug, it is fixed in V1.5.4.2 and later.
 
 ~~~~~~~
 
+V1.5.7.0, 9th December 2021
+~~~~~~~
+- .ba2 viewer now shows default files, and files which SpaceSaver has worked on
+- Included SpaceSaver built in to mod manager, fixing any crashes related to it being missing.
+	- This should be auto-extracted upon first run.
+- Improved crash log if reason of crash is SpaceSaver missing.
+- Fixed a bug where log would identify Windows 11 as Windows 10
+- Fixed a slight overlap visual bug on the 'Mod Manager' page
+- Fixed bug where SpaceSaver would always show it needed an update
+- Fixed bug where wrong year would show in crash log
+- Various UI tweaks
+- Removed delay in current mod count updating
+
 V1.5.6.0, 7th November 2021
 ~~~~~~~
 - Added descriptions to First Time Setup

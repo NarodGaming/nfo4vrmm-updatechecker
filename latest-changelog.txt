@@ -8,6 +8,14 @@ Apologies for this bug, it is fixed in V1.5.4.2 and later.
 
 ~~~~~~~
 
+V1.5.7.1, 11th December 2021
+~~~~~~~
+- Added 'Temporary Mode', which the mod manager will use to open when it has insufficient file permissions.
+- Fixed a bug preventing previous improvement to crash handler from working properly.
+- Fixed a bug which made the Readme hard to read within the mod manager.
+- Fixed a bug allowing the updater to be manually closed mid-way through an update.
+- Fixed various spelling mistakes.
+
 V1.5.7.0, 9th December 2021
 ~~~~~~~
 - .ba2 viewer now shows default files, and files which SpaceSaver has worked on

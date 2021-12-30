@@ -6,6 +6,15 @@ Please manually update here if you have issues: https://www.nexusmods.com/fallou
 
 ~~~~~~~
 
+V1.5.7.3, 30th December 2021
+~~~~~~~
+- Fixed bug that could cause incorrect error message to show if settings were corrupt
+- Fixed bug where opening the options menu forced a redo of the directories.
+- Improved temporary mode to work with most unzipping programs.
+- Updated to SpaceSaver V1.0.1.1
+	- Fixes bug where First Time Setup runs again upon open.
+- Removed legacy update support from V1.4.2.0 and below (you will have to re-do first time setup)
+
 V1.5.7.2, 21st December 2021
 ~~~~~~~
 - Added Christmas message to mod manager

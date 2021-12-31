@@ -6,6 +6,12 @@ Please manually update here if you have issues: https://www.nexusmods.com/fallou
 
 ~~~~~~~
 
+V1.5.7.4, 31st December 2021
+~~~~~~~
+- Fixed changelog to now be accurate (was missing V1.5.7.3)
+- Updated more of mod manager to use new font
+- Updated and improved UI in various places
+
 V1.5.7.3, 30th December 2021
 ~~~~~~~
 - Fixed bug that could cause incorrect error message to show if settings were corrupt

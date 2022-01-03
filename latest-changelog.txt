@@ -1,10 +1,10 @@
-! Important V1.5.4.0 & V1.5.4.1 !
-
-Your auto-update WILL fail if your path has any spaces in it. This bug is fixed in V1.5.4.2 and later.
-
-Please manually update here if you have issues: https://www.nexusmods.com/fallout4/mods/31190
-
+V1.5.7.5, 3rd January 2022
 ~~~~~~~
+- Fixed bug where first time users experienced instant CTD (thanks to laxxe23)
+- Changed crash handler to overwrite previous crashes stored in log.
+- Updated 2021 to 2022, happy new year!
+- Updated all of mod manager to use new font
+- Various UI tweaks and improvements
 
 V1.5.7.4, 31st December 2021
 ~~~~~~~

@@ -1,3 +1,15 @@
+V1.5.8.0, 22nd January 2022
+~~~~~~~
+- Added button to check for updates (works even if the auto-checker is disabled).
+- Added automatic SpaceSaver updating.
+- Added dark mode (auto turned on/off depending on Windows settings).
+- Added icon (shown on taskbar and in folder).
+- Upgraded to SpaceSaver 1.0.1.2
+	- Minor optimisation and improvements
+- Fixed bug where crash log would create on first run as SpaceSaver extracted.
+- Fixed bug where Fallout 4 location setting is deleted when opening Settings.
+- Various UI tweaks and improvements
+
 V1.5.7.5, 3rd January 2022
 ~~~~~~~
 - Fixed bug where first time users experienced instant CTD (thanks to laxxe23)

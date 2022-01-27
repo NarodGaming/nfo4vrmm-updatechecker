@@ -1,3 +1,23 @@
+V1.5.8.1, 27th January 2022
+~~~~~~~
+- Upgraded to SpaceSaver V1.1.0.0
+	- Added Dark Mode.
+	- Added logging, to make it easier to identify issues.
+	- Added warning message for re-attempted installs after a failure.
+	- Added icon.
+	- Added Force Quit button to use in event of a hang.
+	- Changed to new font across the utility for better experience.
+	- Improved return and back buttons to be more consistent.
+	- Improved and shrunk main SpaceSaver window.
+	- Fixed various references to 'Mod Manager' to 'SpaceSaver'.
+	- Fixed bug where SpaceSaver may confuse Fallout 4 and Fallout 4 VR directories during compatibility checks.
+	- Fixed bug where SpaceSaver reversion was allowed at 25GB, which is not enough space, now upped to 50GB.
+	- Fixed bug where re-installing SpaceSaver after reverting may not work due to leftover old folders.
+	- Fixed instant CTD for some users who had not used the mod manager.
+	- Fixed bug where it was possible to not accept Fallout 4 location, causing a crash later on.
+	- Fixed text clipping issues on PCs using Windows Scaling
+	- Other optimisations and improvements to GUI and behind the scenes.
+
 V1.5.8.0, 22nd January 2022
 ~~~~~~~
 - Added button to check for updates (works even if the auto-checker is disabled).

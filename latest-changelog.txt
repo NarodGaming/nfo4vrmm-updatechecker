@@ -1,3 +1,9 @@
+V1.5.8.2, 28th January 2022
+~~~~~~~
+- Added SpaceSaver version information to 'About & Support' tab
+- Fixed automatic SpaceSaver updater not updating users on V1.0.1.2
+- Other minor UI changes.
+
 V1.5.8.1, 27th January 2022
 ~~~~~~~
 - Upgraded to SpaceSaver V1.1.0.0

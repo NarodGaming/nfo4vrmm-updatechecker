@@ -1,3 +1,11 @@
+V1.5.8.3, 30th April 2022
+~~~~~~~
+- Switched back to a 32-bit application
+- Improved various logging messages
+- Improved various error dialogs
+- Fixed bug where closing Changelog by closing window didn't update that it was viewed
+- Removed 'upgrade Windows' error messages
+
 V1.5.8.2, 28th January 2022
 ~~~~~~~
 - Added SpaceSaver version information to 'About & Support' tab

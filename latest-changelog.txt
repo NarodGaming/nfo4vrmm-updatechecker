@@ -1,3 +1,24 @@
+** PLEASE NOTE: V2.0.0.0 is currently in BETA. If you prefer stability over new features, improvements and performance, then select to 'Skip this version'.**
+
+V2.0.0.0 BETA, 9th October 2022
+~~~~~~~
+- Completely rewrote the mod manager in C# / .NET 6
+- Improved Right Click menu, Move Up / Move Down options now available along left hand side too, improved general UI
+- Improved logger to work on all windows, and include the window which sent the message
+- Improved logging messages, adding more where needed and providing more information within
+- Improved error messages relating to potential SpaceSaver issues
+- Improved various message dialogs
+- Improved and modernised the UI in various places
+- Improved Fallout 4 / Fallout 4 VR auto directory locator
+- Fixed bug which may have suggested in log file SpaceSaver was active when it was not
+- Fixed bug which caused a pop-up message for the auto update checker on new installs before First Time Setup could be run
+- Fixed bug where Auto Updater may have run even when disabled
+- Fixed bug where .zip files could still be selected in the Mod Installer
+- Fixed various bugs relating to SpaceSaver library not being available / detected
+- Fixed bug where version may display incorrectly in the readme
+- Fixed bug where existing previous versions of ini files could cause a crash
+- Removed Windows Version checker
+
 V1.5.8.3, 30th April 2022
 ~~~~~~~
 - Switched back to a 32-bit application

@@ -1,4 +1,17 @@
-** PLEASE NOTE: V2.0.0.0 is currently in BETA. If you prefer stability over new features, improvements and performance, then select to 'Skip this version'.**
+** PLEASE NOTE: V2.0.1.0 is currently in BETA. If you prefer stability over new features, improvements and performance, then select to 'Skip this version'.**
+
+** WINDOWS 7 USERS: V2.0.0.0 and above does NOT support Windows 7. Please do not update. **
+
+V2.0.1.0 BETA, 11th October 2022
+~~~~~~~
+- Reintroduced temporary mode
+- Reintroduced crash handler
+- Added option in crash handler to attempt to continue without restarting
+- Added file information back
+- Fixed bug where opening mod installer window and closing it without selecting a file caused an unhandled exception
+- Fixed bug in update window where text was not read-only.
+- Fixed bug where run count was not incrementing upon closing the mod manager.
+- Fixed bug in a bunch of scenarios that could cause a 'NullReferenceException'.
 
 V2.0.0.0 BETA, 9th October 2022
 ~~~~~~~

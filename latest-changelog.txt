@@ -1,10 +1,23 @@
-** Windows 7 users can now upgrade to V2.0.1.2: DO NOT use this auto-updater, please download direct from NexusMods: https://www.nexusmods.com/fallout4/mods/31190 **
+** Windows 7 users can now upgrade to V2.0.1.2 & above: DO NOT use this auto-updater, please download direct from NexusMods: https://www.nexusmods.com/fallout4/mods/31190 **
 
 SHOULD YOU UPGRADE:
 
-V2.0.0.0 - V2.0.1.1 users: YES - UPGRADE
-V1.5.8.3 & OLDER: MAYBE - If you value stability, please 'Skip this version'. Otherwise, YES - UPGRADE.
+V2.0.0.0 - V2.0.1.2 users: YES - UPGRADE
+V1.5.8.3 & OLDER: CONSIDER - v2 is in Beta but is getting close to release. If you're still nervous then SKIP, otherwise UPGRADE.
 
+V2.0.2.0 BETA, 20th July 2023
+~~~~~~~
+- Added more warning when trying to delete core Fallout 4 (VR) files.
+- Fixed bug where it may be possible to cause a crash by moving load order in some scenarios. (thanks TomG57)
+- Fixed bug where SpaceSaver would fail to open. (thanks TomG57)
+- Fixed bug where the delete mod/archive button was available when it should not have been.
+- Fixed bug where deleting a mod/archive using the button did not work correctly.
+- Fixed bug where manually checking for update whilst a check was running would cause a crash.
+- Redesigned dark mode buttons, now look much better!
+- Other misc UI improvements
+- Updated 2022 to 2023, better late than never!
+- Changed to private update checker & optimised update checker.
+- Removed run count messages
 
 V2.0.1.2 BETA, 5th November 2022
 ~~~~~~~

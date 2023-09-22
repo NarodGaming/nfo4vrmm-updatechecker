@@ -2,8 +2,17 @@
 
 SHOULD YOU UPGRADE:
 
-V2.0.0.0 - V2.0.1.2 users: YES - UPGRADE
+V2.0.0.0 - V2.0.2.0 users: YES - UPGRADE
 V1.5.8.3 & OLDER: CONSIDER - v2 is in Beta but is getting close to release. If you're still nervous then SKIP, otherwise UPGRADE.
+
+V2.0.2.1 BETA, 22nd September 2023
+~~~~~~~
+- Fixed bug where invalid Steam location could be accepted as valid
+- Fixed bug where dark mode was defaulted to on various systems (Win 7 and Linux)
+- Fixed bugs with using light mode on First Time Setup
+- Fixed crash when attempting to make Fallout4Custom.ini changes before first run of FO4VR
+- Fixed crash that would occur with a broken setup or install of FO4/VR
+- Fixed typos in error messages
 
 V2.0.2.0 BETA, 20th July 2023
 ~~~~~~~

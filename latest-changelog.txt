@@ -2,8 +2,13 @@
 
 SHOULD YOU UPGRADE:
 
-V2.0.0.0 - V2.0.2.0 users: YES - UPGRADE
+V2.0.0.0 - V2.0.2.1 users: YES - UPGRADE
 V1.5.8.3 & OLDER: CONSIDER - v2 is in Beta but is getting close to release. If you're still nervous then SKIP, otherwise UPGRADE.
+
+V2.0.2.2 BETA, 27th October 2023
+~~~~~~~
+- Added F4SE VR support
+- Minor UI tweaks
 
 V2.0.2.1 BETA, 22nd September 2023
 ~~~~~~~

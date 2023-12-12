@@ -2,8 +2,14 @@
 
 SHOULD YOU UPGRADE:
 
-V2.0.0.0 - V2.0.2.1 users: YES - UPGRADE
+V2.0.0.0 - V2.0.2.2 users: YES - UPGRADE
 V1.5.8.3 & OLDER: CONSIDER - v2 is in Beta but is getting close to release. If you're still nervous then SKIP, otherwise UPGRADE.
+
+V2.0.2.3 BETA, 12th December 2023
+~~~~~~~
+- Improved UI
+- Improved Dark Mode (less contrast / eye strain)
+- Improved logs and logging readability
 
 V2.0.2.2 BETA, 27th October 2023
 ~~~~~~~
